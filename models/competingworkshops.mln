@@ -1,0 +1,17 @@
+p = {P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11,P12,P13,P14,P25}
+w = {W1,W2,W3,W4,W5}
+
+series
+hot(w)
+attends(p)
+
+-1.6094379124 hot(w) ^ attends(p)
+-0.2231435513 !hot(w) v !attends(p)
+-0.6911491779 attends(p) ^ series
+-0.6951491832 !attends(p) v !series
+
+attends(P1).
+attends(P2).
+attends(P3).
+attends(P4).
+attends(P5).

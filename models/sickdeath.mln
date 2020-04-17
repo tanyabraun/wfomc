@@ -1,0 +1,14 @@
+domain Person 4 {}
+
+epidemic
+death
+sick(person)
+
+epidemic 0.55 0.45
+if epidemic then sick(P) 0.7 else 0.01
+if sick(P) then death 0.6
+
+-0.598 epidemic
+-0.799 !epidemic
+
+-4.605 sick(person)
