@@ -1,7 +1,13 @@
-Summary
+
+Note
 =======
 
 Version 3.0 of WFOMC/ForcLift (https://dtai.cs.kuleuven.be/software/wfomc).
+As of now, the only input format to work appears to be that of .mln files.
+
+Summary
+=======
+
 Perform weighted model counting in a lifted manner.
 
 
