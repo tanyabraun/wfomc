@@ -1,6 +1,7 @@
 Summary
 =======
 
+Version 3.0 of WFOMC/ForcLift (https://dtai.cs.kuleuven.be/software/wfomc).
 Perform weighted model counting in a lifted manner.
 
 
